@@ -12,7 +12,7 @@ var x = 0;
 			$(cur).fadeOut(500);
 			$(nxt).fadeIn(500);
 			if (x == n) { x = 0; }
-		},
+		}
 	};
 
 	$.fn.pager = function() {
